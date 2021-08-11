@@ -9,6 +9,7 @@ import sqlalchemy
 router = APIRouter()
 
 
+
 async def get_db() -> sqlalchemy.engine.base.Connection:
     """Get a SQLAlchemy database connection.
     
